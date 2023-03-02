@@ -1,12 +1,15 @@
 import "./App.css";
-import Main from "./components/main";
 import Navbar from "./components/navbar";
 import Routing from "./components/routing";
-import { Routes, Route } from "react-router-dom";
+import Header from "./components/header";
+import Content from "./components/about";
 
 function App() {
   return (
     <div>
+      <Navbar/>
+      <Header/>
+      <Content/>
       <Routing />
     </div>
   );
