@@ -4,7 +4,6 @@ import { UilLinkedin } from "@iconscout/react-unicons";
 import { UilGithub } from "@iconscout/react-unicons";
 import Gambar1 from "../assets/gue.jpg";
 import Gambar2 from "../assets/sy.jpg";
-import Content from "./about";
 
 export const Header = () => {
   let instagram = "https://www.instagram.com/cellinerysh/";
